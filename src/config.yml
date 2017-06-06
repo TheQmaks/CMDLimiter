@@ -1,0 +1,14 @@
+# Плагин разработан пользователем форума rubukkit.org под ником Qmaks.
+# Официальная тема плагина -> http://rubukkit.org/threads/admin-cmdlimiter-1-0-ogranichenie-igrovyx-komand-spigot-1-8.135711/
+# Страница создателя на форуме (Все вопросы, просьбы, предложения в личку) -> http://rubukkit.org/members/qmaks.45892/
+
+# Сообщение, отправляемое игроку при исполнении от его имени запрещенной команды, где <player> - ник, а <command> - запрещенная команда.
+block-msg:
+    - "&6Здравствуй, <player>!"
+    - "&6Команду &c<command> &6запрещено использовать."
+    
+# Список разрешенных команд
+allowed-commands:
+    - /spawn
+    - /suicide
+    - /login
